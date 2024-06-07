@@ -11,6 +11,7 @@
 	<center class="center">
 
 		<div class="forms">
+			
 			<h1>اطلاعات خود را پر کنید</h1>
 
 			<form action="insert.php" method="post">
