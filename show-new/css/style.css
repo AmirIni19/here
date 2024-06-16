@@ -15,8 +15,16 @@ body {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0px;
+  padding: 0px;
 }
 
+
+
+
+/* start the output.php */
 .wrapper {
   margin: 0 auto;
   padding: 40px;
@@ -115,8 +123,16 @@ body {
   transition: 1s;
 }
 
+/* end of output.php */
 
 
+
+
+
+
+
+
+/* start the print page */
 .mybox .btn_print {
   cursor: pointer;
 }
@@ -139,9 +155,6 @@ body {
   border-radius: 12px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
 }
-
-
-
 
 
 .show_img .item1 {
@@ -171,3 +184,57 @@ body {
   right: 177px;
   font-size: 34px;
 }
+
+/* end of print page */
+
+
+
+
+
+
+/* start the login.php */
+.main_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  height: 90vh;
+  align-items: center;
+}
+
+form.my_form {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 227px;
+  height: 31vh;
+  justify-content: center;
+  background: #c1c1c142;
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+label.my_label {
+  padding: 15px 0px 5px 0px;
+  color: white;
+  font-size: 15px;
+}
+
+input.my_input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button.my_button {
+  margin: 22px 0px 21px 0px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* end of login.php */

@@ -1,3 +1,9 @@
+<?php 
+
+include_once('config.php')
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -8,12 +14,14 @@
 
 <body>
 	<center style="
-	    width: 100%;
-	    height: 80vh;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	    flex-direction: column;
+		width: 100%;
+		height: 80vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color:white;
+		font-size:15px;
 	">
 		<?php
 
@@ -21,7 +29,7 @@
 		// username => root
 		// password => empty
 		// database name => staff
-		$conn = mysqli_connect("localhost", "root", "", "staff");
+		$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 		// Check connection
 		if ($conn === false) {

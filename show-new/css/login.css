@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "yekanbakh";
+  src: url("../fonts/YekanBakhFaNum-VF.woff");
+  src: url("../fonts/YekanBakhFaNum-VF.woff2");
+}
+
+* {
+  font-family: "yekanbakh";
+  direction: rtl;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.my_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.my_form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.my_label {
+  font-size: 16px;
+}
+
+.my_input {
+  width: 93%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.my_button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my_button:hover {
+  background-color: #0056b3;
+}
